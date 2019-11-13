@@ -7,3 +7,6 @@ monitoring.infra.rust-lang.org
 [crater]
 crater-aws-1.infra.rust-lang.org
 crater-azure-1.infra.rust-lang.org
+
+[perf-collect]
+perf-collect.infra.rust-lang.org

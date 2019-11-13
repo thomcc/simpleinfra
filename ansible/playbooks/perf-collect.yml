@@ -1,0 +1,14 @@
+---
+
+- hosts: perf-collect
+  become: yes
+  become_user: root
+
+  roles:
+
+    - role: common
+      sudo_users:
+        - aidanhs
+        - acrichto
+        - simulacrum
+        - pietro
